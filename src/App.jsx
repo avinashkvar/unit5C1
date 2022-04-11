@@ -98,7 +98,7 @@ function App() {
 				<button
 					className="addScore6"
 					onClick={
-						score.Score > 95 ? () => changeSore(0) : () => changeSore(6)
+						score.Score >=100 ? () => changeSore(0) : () => changeSore(6)
 					}
 				>
 					Add 6
